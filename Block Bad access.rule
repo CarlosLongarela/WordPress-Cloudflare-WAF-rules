@@ -17,7 +17,6 @@
 (http.request.uri contains "webconfig.txt") or 
 (http.request.uri contains "vuln.") or 
 (http.request.uri contains ".env") or (http.request.uri contains ".ini") or (http.request.uri contains ".log") or (http.request.uri contains ".sql") or
-(http.request.uri contains ".sql.gz") or (http.request.uri contains ".sql.zip") or
 (http.request.uri.query contains "bin.com/") or (http.request.uri.query contains "bin.net/") or (raw.http.request.uri.query contains "?%00") or 
 (http.request.uri.query contains "eval(") or (http.request.uri.query contains "base64") or (http.request.uri.query contains "var_dump") or 
 (http.request.uri.query contains "<script") or (raw.http.request.uri.query contains "%3Cscript") or 
