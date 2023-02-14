@@ -1,4 +1,0 @@
-(ip.geoip.asnum eq 31627)
-
-# Action will be Ommit Browser integrity Check
-# IMPORTANT, delete these lines, maintain only line 1 or rule won't save
