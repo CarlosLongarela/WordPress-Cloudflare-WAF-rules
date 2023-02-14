@@ -6,7 +6,7 @@
 
 ## Custom filter expression:
 
-- (http.request.uri contains «» and not http.request.full_uri contains ".css" and not http.request.full_uri contains ".js" and not http.request.uri contains *.jpg* and not http.request.uri contains ".gif" and not http.request.uri contains ".png" and not http.request.uri contains ".webp")
+- (http.request.uri contains "" and not http.request.full_uri contains ".css" and not http.request.full_uri contains ".js" and not http.request.uri contains ".jpg" and not http.request.uri contains ".gif" and not http.request.uri contains ".png" and not http.request.uri contains ".webp")
 
 ## Then: 
 
