@@ -1,4 +1,4 @@
-``
+<code>
 (cf.threat_score gt 14) or 
 (cf.threat_score gt 10 and cf.client.bot) or
 (http.request.uri.query contains "author_name=" and not http.request.uri.path contains "/wp-admin/") or 
@@ -28,4 +28,4 @@
 (upper(http.request.uri.query) contains "$_GLOBALS[") or 
 (upper(http.request.uri.query) contains "$_REQUEST[") or 
 (upper(http.request.uri.query) contains "$_POST[")
-``
+</code>
